@@ -1,0 +1,164 @@
+/* Styling for Admin Dashboard */
+
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200px;
+    padding: 20px;
+}
+
+.sidebar header {
+    margin-bottom: 40px;
+}
+
+.sidebar header h1 {
+    margin: 0;
+}
+
+.sidebar nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar nav ul li {
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.sidebar nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+.sidebar nav ul li a:hover {
+    font-weight: bold;
+}
+
+/* Main Content Styles */
+.main-content {
+    margin-left: 220px;
+    padding: auto;
+}
+
+.main-content header {
+    background-color: #555;
+    color: #fff;
+    padding: 20px 0;
+    margin-left: 10px;
+}
+
+.main-content header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.main-content .container .content h2 {
+    margin-top: 38px;
+}
+
+.main-content header h1 {
+    margin: 0;
+}
+
+.form-group {
+    margin-bottom: 10px;
+  }
+
+label {
+    margin-top: 30px;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select {
+    width: calc(100% - 12px); /* Lebar input dan select */
+    margin: 2px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+
+input[type="number"] {
+    width: calc(100% - 28px); /* Lebar input dan select */
+    margin: 2px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+  
+button[type="submit"] {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+button[type="submit"]:hover {
+    background-color: #333;
+}
+
+
+.sidebar footer {
+    position: absolute;
+    bottom: 70px;
+    margin-left: 20px;
+}
+
+/* Logout Button */
+.logout-btn {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    border-radius: 7px;
+}
+
+.logout-btn:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.back-btn {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    border-radius: 7px;
+    margin-left: 28px;
+}
+
+.back-btn:hover {
+    background-color: #fff;
+    color: #333;
+}
